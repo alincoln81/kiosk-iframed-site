@@ -19,7 +19,7 @@ function resetExperience() {
     countDown(false);
 
     //Redirect
-    window.location.href = "https://www.fans.capture.vixi.thefamousgroup.com/submissions?eventId=6cdaf206-e677-49d9-8c2b-f460f1faccdf&isLockedOrientation=true";
+    window.location.assign("https://www.fans.capture.vixi.thefamousgroup.com/submissions?eventId=6cdaf206-e677-49d9-8c2b-f460f1faccdf&isLockedOrientation=true");
 }
 
 function countDown(bool) {
