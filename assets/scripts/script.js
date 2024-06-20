@@ -19,13 +19,13 @@ function resetExperience() {
     countDown(false);
 
     //Redirect
-    window.location.href = "https://fans.capture.vixi.thefamousgroup.com/submissions?eventId=6cdaf206-e677-49d9-8c2b-f460f1faccdf&isLockedOrientation=true";
+    window.location.href = "https://www.fans.capture.vixi.thefamousgroup.com/submissions?eventId=6cdaf206-e677-49d9-8c2b-f460f1faccdf&isLockedOrientation=true";
 }
 
 function countDown(bool) {
     let resetcountdown;
     if (bool) {
-        resetcountdown  = setTimeout ( "resetExperience()", 10000 );
+        resetcountdown = setTimeout ( "resetExperience()", 10000 );
         console.log('countdown started');
     }
     else {
