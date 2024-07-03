@@ -1,15 +1,6 @@
 
 function showOutput() {
-    //Runs When the AI process is complete 
     console.log('showOutput called');
-    
-    //Load in Result URL
-    //document.getElementById('aiResult').src = 'https://firebasestorage.googleapis.com/v0/b/vixi-capture-dev.appspot.com/o/images%2F1dd35140-7a02-4062-83d3-b195a0127033%2F810a57a9-6262-4b5e-94bf-845cf0f9e57c.jpg?alt=media&token=044a23dc-a41a-43c8-86b9-243a6566dc91';
-
-    //Show Results
-    //document.getElementById('results').style.display = 'flex';
-    
-    //SetTimeout (when it reaches 0 the experience will reset)
     countDown(true);
 }
 
@@ -34,4 +25,4 @@ function countDown(bool) {
     }
 }
 
-showOutput();
+//showOutput();
