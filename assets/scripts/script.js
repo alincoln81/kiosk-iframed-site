@@ -25,4 +25,4 @@ function countDown(bool) {
     }
 }
 
-//showOutput();
+showOutput();
